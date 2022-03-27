@@ -40,9 +40,11 @@ DlyLoc implements a "live" or "on-line" approach where some samples are collecte
 
 Output can be in a human-friendly format or a "machine readable" format that is better for using as input to some further analysis. In the former, when a particular metric is not computable a "-" is printed. In the latter, a -1.0 is printed. DlyLoc takes the approach of minimal processing of the data, expecting post-processing to be used to extract friendlier presentations. Several approaches have been used in the past, including awk scripts and graf, d3 javascript, and Qt Qcustomplot plotter programs. For continued live use, output may be redirected to a file or piped to a display or summarization widget. (This author has used tdigest summaries with both qcustomplot and d3.js in the past.)
 
+## Note
+
 DlyLoc is meant for network nerds who can get information from the code. There are comments to note where additional data collection could occur but DlyLoc has been kept fairly basic. No support is provided; this code is offered as an example or a basis for the interested.
 
-Some additional information and pictures of processed output are at: http://pollere.net/netobserve.html and http://pollere.net/Pdfdocs/ListeningGoog.pdf.
+DlyLoc is a simplified and slightly modified version of TSDE which was used in some previous talks. This version has not been extensively tested. Some additional information and pictures of processed output (using TSDE) are at: http://pollere.net/netobserve.html and http://pollere.net/Pdfdocs/ListeningGoog.pdf.
 
 ## Running
 
